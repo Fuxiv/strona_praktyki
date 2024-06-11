@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#imageContainer{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sliding{
+    width: 100%;
+    height: 100vh;
+}
+
+#imageDescription{
+    font-family: "Lato", sans-serif;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 18%;
+    font-size: 8rem;
+    z-index: 10;
+}
+
+#imageGradient{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.14609593837535018) 100%);
+}
+
